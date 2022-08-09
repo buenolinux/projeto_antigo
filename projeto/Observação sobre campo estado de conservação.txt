@@ -1,0 +1,4 @@
+0 = produto sem condições consumo
+1 = produto sem condições consumo para analise
+2 = produto em  condições consumo
+3 = produto em excelente estado conservação
