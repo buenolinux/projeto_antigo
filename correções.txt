@@ -1,0 +1,24 @@
+funcionario precisa de mais funções por exemplo
+
+id_funcionario = login = senha... **
+
+o acesso a sua conta com determinda função do setor no site: -
+ 
+vendedor = setor = marca = produto -
+
+simplificando estara determinado para o funcionario responsavel id ***
+que esta operando em determinada aba de categoria definitiva pelo id = setor.
+ 
+
+adicionar campo  descrição e imagem *
+as telas devem ter todos os campos editaveis das tabelas
+
+
+Criar tabela lote para validade
+criar campos entrada e saída na tabela lote
+
+id lote 
+validade
+entrada
+
+petz.com.br
