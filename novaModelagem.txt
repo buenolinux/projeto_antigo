@@ -1,0 +1,77 @@
+tab_categorias
+	id_categoria
+	nome
+
+tab_lotes
+	id_lote
+	validade
+	entrada_data
+
+
+tab_fornecedores
+	id_fornecedor
+	nome
+	telefone
+
+tab_encomendas
+	id_encomenda
+	id_fornecedor
+	id_produto
+	quantidade
+
+tab_marcar
+	id_marca
+	id_encomenda
+
+tab_produtos
+	id_produto
+	id_lote fk
+	id_categoria fk
+	id_fornecedor fk
+	nome
+	preco
+	descricao
+	imagem 
+	unidademedida se o produto for contado em kg ou liquido ou outros
+	tamanho para outros tipos de produtos como brinquedos
+	tamanhomodelo se houver pacotes de ração de tamanhos diferentes
+
+
+
+
+tab_animais
+	id_animal
+	nome
+	id_categoria fk
+
+tab_clientes
+	id_cliente
+	nome
+	sobrenome
+	cpf
+	email
+	senha
+	celular
+	telefone
+	sexo
+	datanascimento
+	endereco
+	numero
+	complemento
+	bairro
+	cidade
+	estado
+	
+
+tab_itens_pedido
+	id_item
+	id_produto
+	quantidade
+
+
+tab_vendas
+	id_venda
+	id_item
+
+
+	
