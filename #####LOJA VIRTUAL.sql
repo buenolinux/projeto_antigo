@@ -72,7 +72,7 @@ CREATE TABLE tab_estoques(
 );
 
 CREATE TABLE tab_cargos(
-	id_cargo INT NOT NULL PRIMARY KEY,
+	id_cargo INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
 	id_departamento INT NOT NULL,
 	nome VARCHAR(20),
 	
